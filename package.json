@@ -1,0 +1,20 @@
+{
+  "name": "jianpu-convert",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "render": "node dist/render.js",
+    "test:layout": "node --test tests/layout.test.mjs tests/style.test.mjs tests/rests.test.mjs tests/spans.test.mjs tests/voices.test.mjs tests/render.test.mjs"
+  },
+  "description": "Chinese orchestra staff-PDF to numbered-notation PDF prototype",
+  "engines": { "node": ">=24 <25" },
+  "dependencies": { "pdfkit": "0.20.2" },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "@types/pdfkit": "0.17.6",
+    "@types/node": "24.19.2"
+  }
+}

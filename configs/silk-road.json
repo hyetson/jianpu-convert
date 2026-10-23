@@ -1,0 +1,81 @@
+{
+  "title": "丝绸之路",
+  "subtitle": "竹笛组合分谱 · 五线谱自动转换初稿",
+  "composer": "姜莹",
+  "parts": [
+    {
+      "id": "bangdi",
+      "name": "梆笛",
+      "instrumentFamily": "wind",
+      "pdf": "example/Silk Road 2012 - 梆笛.pdf"
+    },
+    {
+      "id": "qudi",
+      "name": "曲笛",
+      "instrumentFamily": "wind",
+      "pdf": "example/Silk Road 2012 - 曲笛.pdf"
+    },
+    {
+      "id": "xindi",
+      "name": "新笛G",
+      "instrumentFamily": "wind",
+      "pdf": "example/Silk Road 2012 - 新笛G 贴胶布.pdf"
+    }
+  ],
+  "output": "output/jianpu/丝绸之路_竹笛分谱_试转换.pdf",
+  "pitchPolicy": "written",
+  "layout": {
+    "pageSize": "A4",
+    "fontSize": 13,
+    "margin": 35,
+    "compressRests": true,
+    "rests": {
+      "minimumMeasuresToCompress": 4,
+      "widthRatio": 6,
+      "minimumWidthRatio": 5,
+      "symbolInset": 6,
+      "lineWidth": 2.2,
+      "capHeight": 10,
+      "capWidth": 1.3,
+      "countGap": 4,
+      "countDigitGap": 1.3,
+      "zeroInset": 8
+    },
+    "typography": {
+      "restCountSize": 20.5
+    },
+    "measureNumbers": {
+      "fontSize": 18,
+      "height": 16,
+      "paddingY": 2,
+      "digitGap": 0.6
+    },
+    "curves": {
+      "slurHeight": 12,
+      "tieHeight": 6,
+      "maximumHeight": 44,
+      "clearance": 3.5,
+      "laneGap": 5,
+      "lineWidth": 0.7,
+      "edgeInset": 12,
+      "dashLength": 3,
+      "dashSpace": 2,
+      "collisionStep": 2
+    },
+    "maxMeasuresPerSystem": 4
+  },
+  "fonts": {
+    "text": "C:/Windows/Fonts/NotoSerifSC-VF.ttf",
+    "music": "tools/fonts/Bravura.otf",
+    "restCounts": [
+      "tools/fonts/reference-maestro/counts-primary.ttf",
+      "tools/fonts/reference-maestro/counts-five.ttf",
+      "tools/fonts/reference-maestro/counts-eight.ttf"
+    ],
+    "measureNumbers": [
+      "tools/fonts/reference-maestro/counts-primary.ttf",
+      "tools/fonts/reference-maestro/counts-five.ttf",
+      "tools/fonts/reference-maestro/counts-eight.ttf"
+    ]
+  }
+}
